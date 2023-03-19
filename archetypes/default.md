@@ -1,19 +1,19 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "{{ replace .Name "-" " " | title }}" 
+date: {{ .Date }} # 创建时间
+lastmod: {{ .Date }} # 更新时间
 author: ["mqxie"]
-keywords: 
+keywords:  # 未设置keyword
 - 
 categories: # 没有分类界面可以不填写
 - 
 tags: # 标签
 - 
 description: ""
-weight:
+weight:  #  输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
 draft: false # 是否为草稿
-comments: true # 本页面是否显示评论
+comments: fasle # 本页面是否显示评论
 reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录

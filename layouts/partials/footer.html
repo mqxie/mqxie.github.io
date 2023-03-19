@@ -22,7 +22,39 @@
         <span class="fa fa-user"></span> <span id="busuanzi_value_site_uv"></span>
         <span class="fa fa-eye"></span> <span id="busuanzi_value_site_pv"></span>
     </span>
+
+    <!-- 添加网站运行时间 -->
+    <span>
+        网站已安全运行 <SPAN id=span_dt_dt style="color: #0196e3;"></SPAN> 
+        <SCRIPT language=javascript>
+        function show_date_time(){
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay=new Date("3/12/2023 00:00:00");//日期自己修改
+        today=new Date();
+        timeold=(today.getTime()-BirthDay.getTime());
+        sectimeold=timeold/1000
+        secondsold=Math.floor(sectimeold);
+        msPerDay=24*60*60*1000
+        e_daysold=timeold/msPerDay
+        daysold=Math.floor(e_daysold);
+        e_hrsold=(e_daysold-daysold)*24;
+        hrsold=Math.floor(e_hrsold);
+        e_minsold=(e_hrsold-hrsold)*60;
+        minsold=Math.floor((e_hrsold-hrsold)*60);
+        seconds=Math.floor((e_minsold-minsold)*60);
+        span_dt_dt.innerHTML=""+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+        }
+        show_date_time();
+        </SCRIPT>
+    </span>
+
+    <span id="busuanzi_container_site_uv">
+        您是本站第<span id="busuanzi_value_site_uv"></span>位小伙伴
+        </span>
+
     {{- end }}
+
+    
 </footer>
 {{- end }}
 
@@ -216,3 +248,4 @@
         $(this).css("border-top-right-radius", "unset")
     })
 </script>
+

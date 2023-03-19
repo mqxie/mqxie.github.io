@@ -1,5 +1,5 @@
 ---
-title: "🤝友链"
+title: "其他"
 layout: links
 date: 2021-11-06T15:15:53+08:00
 description: 
@@ -12,7 +12,7 @@ reward: false
 showbreadcrumbs: false
 ---
 
-# 暂未开放
+# 还在构思......
 
 
 
