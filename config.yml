@@ -207,6 +207,12 @@ markup:
     # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
     # noClasses：使用 class 标签，而不是内嵌的内联样式
 
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+
 privacy:
   vimeo:
     disabled: false
