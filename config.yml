@@ -12,7 +12,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics:  # 谷歌统计
+googleAnalytics: G-06031E97GS  # 谷歌统计
 # Copyright: Sulv
 
 paginate: 15    # 首页每页显示的文章数
