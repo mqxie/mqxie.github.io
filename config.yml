@@ -91,7 +91,7 @@ outputs:
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: ""
+  description: "" # 增加描述，有助于SEO优化
   author: mqxie
   # author: ["Me", "You"] # multiple authors
 
