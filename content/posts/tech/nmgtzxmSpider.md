@@ -14,7 +14,7 @@ tags: # 标签
 description: ""
 weight:  #  输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
-draft: true # 是否为草稿
+draft: false # 是否为草稿
 comments: fasle # 本页面是否显示评论
 reward: false # 打赏
 mermaid: true #是否开启mermaid
@@ -80,7 +80,6 @@ firsttable = soup.find("table")
 print(firsttable)
 
 ```
-
 
 
 
